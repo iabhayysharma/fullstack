@@ -1,0 +1,37 @@
+<html>
+<body>
+use of onchange onfocus onblur
+
+<form>
+
+<input type="text" id="one" onfocus="fun()" onblur="fun1()" onekeyup="fun2()">
+
+</form>
+
+<script>
+
+function fun()
+{
+
+document.getElementById("one").style.background="red";
+
+}
+function fun1()
+{
+
+alert("no change");
+
+}
+function fun2()
+{
+alert("keyup");
+
+
+}
+
+</script>
+
+</body>
+
+</html>
+
